@@ -18,3 +18,8 @@ jobs:
       with:
         name: hello-artifact
         path: hello.txt
+
+    - name: Download a Build Artifact
+      uses: actions/download-artifact@v7.0.0
+      
+
